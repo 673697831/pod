@@ -1,0 +1,28 @@
+{
+  "name": "pod1",
+  "version": "0.1.0",
+  "summary": "my pod1",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/673697831/pod1",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "673697831": "6736978313@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/673697831/pod1.git"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "ios": {
+    "vendored_libraries": "Library/libTestProject2.a",
+    "vendored_frameworks": "Library/TestProject1.framework"
+  },
+  "source_files": [
+    "Classes/**/*",
+    "Library/*.{h}"
+  ]
+}
